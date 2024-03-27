@@ -7,7 +7,7 @@ def fb():
    fun_but.config(text="KIS JAGAH KA TAPMAN JANNA HE APKO! (@_@)",bg="#517470",fg="white",font=("Calibre",11))
 #DECLARING THE API FOR THE CODE
 def get_weather_data(city_name):
-    api_key = "6f406b3886a4e20eeed593dfe1751db1"
+    api_key = "6f406b3886a4e20eeed593dfe1751db1" #api is disabled add your's hehe
     base_url = "https://api.openweathermap.org/data/2.5/weather"
     params = {
         "q": city_name,
